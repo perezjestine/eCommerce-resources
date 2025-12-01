@@ -1,0 +1,53 @@
+.header-zone.lft img {
+    opacity: 1 !important;
+}
+/* 1. Hide the original picture element completely */
+.header-zone.lft picture {
+    display: none !important;
+}
+
+/* 2. Apply the new image to the parent link */
+.header-zone.lft a {
+    display: block !important;
+    width: 200px !important;
+    height: 100px !important;
+    
+    background-image: url('/userfiles/boltsupplyhouse/boltsupply-ecomm.png');
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+}
+[role=main] .row.main-row:not(.page-full-width) {
+    max-width: 1840px !important;
+}
+a[href="/become-a-customer"] {
+    display: none !important;
+}
+@media screen and (min-width: 768px) {
+    [role=secondary-nav] {
+        background-color: #f3f3f3 !important;
+    }
+}
+#tst_userNav {
+    background-color: #f3f3f3 !important;
+}
+[role=secondary-nav] li a, [role=secondary-nav] li[role=user-options] a {
+    color: #003E7E !important;
+}
+[role=secondary-nav] li[role=sign-in], [role=secondary-nav] li[role=sign-out] {
+    background-color: #a9a9a9 !important;
+}
+@media screen and (min-width: 768px) {
+    [role=secondary-nav] li[role=user-cart] .cart-link .cart-link__icon svg {
+        fill: #003E7E !important;
+    }
+}
+[role=secondary-nav] li[role=sign-in] .btn.sign-in:focus, [role=secondary-nav] li[role=sign-in] .btn.sign-in:hover, [role=secondary-nav] li[role=sign-out] .btn.sign-out:focus, [role=secondary-nav] li[role=sign-out] .btn.sign-out:hover {
+    background-color: #646464 !important;
+}
+nav[role="secondary-nav"] {
+    border-bottom: 1px solid #cccccc !important; /* 1px thickness, solid style, grey color */
+}
+.header-zone.rt .isc-primary-nav li a:hover:after {
+    background-color: #a9a9a9 !important;
+}

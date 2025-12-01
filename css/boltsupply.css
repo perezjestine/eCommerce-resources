@@ -33,7 +33,7 @@ body {
     background-position: center !important;
 }
 [role=main] .row.main-row:not(.page-full-width) {
-    max-width: 1840px !important;
+    max-width: 100% !important;
 }
 a[href="/become-a-customer"] {
     display: none !important;

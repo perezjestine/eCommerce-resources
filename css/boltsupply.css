@@ -1,3 +1,18 @@
+@charset "UTF-8";
+/*--- VARIABLES - START ---*/
+/*--- VARIABLES - END ---*/
+/*--- RESPONSIVENESS - START ---*/
+/*--- RESPONSIVENESS - END ---*/
+/*--- STYLE RESET - START ---*/
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+}
+
 .header-zone.lft img {
     opacity: 1 !important;
 }

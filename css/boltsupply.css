@@ -27,7 +27,7 @@ body {
     width: 200px !important;
     height: 100px !important;
     
-    background-image: url('/userfiles/boltsupplyhouse/boltsupply-ecomm.png');
+    background-image: url('https://sourceatlantic.commerce.insitesandbox.com/userfiles/boltsupplyhouse/boltsupply-ecomm.png');
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
